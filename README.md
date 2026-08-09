@@ -1,105 +1,167 @@
 <div align="center" id="top">
 
-  <!-- CUSTOM CSS KEYFRAME ANIMATED SVG HEADER -->
+  <!-- SLEEK MINIMALIST HEADER BANNER -->
   <a href="https://github.com/adityarathod2008">
-    <img src="https://raw.githubusercontent.com/adityarathod2008/adityarathod2008/main/assets/header.svg" width="100%" alt="Aditya Rathod Header Animation" />
+    <img src="https://raw.githubusercontent.com/adityarathod2008/adityarathod2008/main/assets/header-sleek.svg" width="100%" alt="Aditya Rathod Header" />
   </a>
 
   <br /><br />
 
-  <!-- DYNAMIC ANIMATED TYPING BANNER -->
+  <!-- DYNAMIC TYPING BANNER -->
   <a href="https://github.com/adityarathod2008">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=800&color=38BDF8&center=true&vcenter=true&multiline=true&width=750&height=90&lines=%E2%9A%A1+Welcome+to+my+Animated+GitHub+Universe!;%F0%9F%9A%80+Full-Stack+Web+Developer+%26+Creative+UI+Architect;%F0%9F%92%A1+Transforming+Ideas+into+Ultra-Fast+Digital+Experiences" alt="Typing Subtitle Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vcenter=true&width=700&height=50&lines=Full-Stack+Web+Developer;Building+Clean%2C+Modern+%26+Responsive+Web+Apps;Crafting+Intuitive+UI%2FUX+Experiences" alt="Typing Banner" />
   </a>
 
   <br />
 
-  <!-- GLOWING BADGES ROW -->
+  <!-- MINIMAL BADGES ROW -->
   <p align="center">
     <a href="https://github.com/adityarathod2008">
-      <img src="https://img.shields.io/github/followers/adityarathod2008?logo=github&style=for-the-badge&color=818CF8&labelColor=0F172A" alt="Followers" />
+      <img src="https://img.shields.io/github/followers/adityarathod2008?logo=github&style=flat-square&color=38BDF8&labelColor=0F172A" alt="Followers" />
     </a>
-    <a href="https://komarev.com/ghpvc/?username=adityarathod2008&color=38BDF8&style=for-the-badge&label=PROFILE+VIEWS">
-      <img src="https://komarev.com/ghpvc/?username=adityarathod2008&color=38BDF8&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+    &nbsp;
+    <a href="https://komarev.com/ghpvc/?username=adityarathod2008&color=818CF8&style=flat-square&label=PROFILE+VIEWS">
+      <img src="https://komarev.com/ghpvc/?username=adityarathod2008&color=818CF8&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
     </a>
+    &nbsp;
     <a href="https://github.com/adityarathod2008?tab=repositories">
-      <img src="https://img.shields.io/github/stars/adityarathod2008?logo=github&style=for-the-badge&color=F472B6&labelColor=0F172A" alt="Total Stars" />
+      <img src="https://img.shields.io/github/stars/adityarathod2008?logo=github&style=flat-square&color=F472B6&labelColor=0F172A" alt="Total Stars" />
     </a>
   </p>
 
-  <!-- ANIMATED LASER DIVIDER -->
-  <img src="https://raw.githubusercontent.com/adityarathod2008/adityarathod2008/main/assets/divider.svg" width="100%" alt="Laser Divider" />
+  <!-- SLEEK DIVIDER -->
+  <img src="https://raw.githubusercontent.com/adityarathod2008/adityarathod2008/main/assets/divider-sleek.svg" width="100%" alt="Divider" />
 
 </div>
 
 <br />
 
-<!-- ANIMATED CYBERPUNK TERMINAL CARD -->
+<!-- SLEEK TERMINAL PROFILE CARD -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/adityarathod2008/adityarathod2008/main/assets/terminal.svg" width="100%" alt="Animated Terminal Card" />
+  <img src="https://raw.githubusercontent.com/adityarathod2008/adityarathod2008/main/assets/terminal-sleek.svg" width="100%" alt="Terminal Profile Config" />
 </div>
 
 <br />
 
-<!-- ANIMATED LASER DIVIDER -->
+<!-- SLEEK DIVIDER -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/adityarathod2008/adityarathod2008/main/assets/divider.svg" width="100%" alt="Laser Divider" />
+  <img src="https://raw.githubusercontent.com/adityarathod2008/adityarathod2008/main/assets/divider-sleek.svg" width="100%" alt="Divider" />
 </div>
 
 <br />
 
-<!-- ANIMATED TECH STACK MATRIX -->
+<!-- ORGANIZED PUBLIC REPOSITORIES SHOWCASE TABLE -->
 <div align="center">
-  <h2>
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/High%20Voltage.png" width="35" height="35" />
-    <b>Tech Stack &amp; Skill Matrix</b>
-  </h2>
-  <p><i>Technologies I power my animated web applications with:</i></p>
+  <h2>📁 Featured &amp; Organized Repositories</h2>
+  <p><i>A clean overview of my open-source projects, web applications, and repositories:</i></p>
+</div>
+
+<br />
+
+<table align="center" width="100%">
+  <thead>
+    <tr>
+      <th align="left">Repository</th>
+      <th align="left">Description</th>
+      <th align="center">Primary Tech</th>
+      <th align="center">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b><a href="https://github.com/adityarathod2008/AWMK-G">🎮 AWMK-G</a></b></td>
+      <td>All-in-one entertainment &amp; gaming web platform for movies, series &amp; browser games.</td>
+      <td align="center"><code>HTML5</code> <code>CSS3</code> <code>JS</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Active-38BDF8?style=flat-square" /></td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/adityarathod2008/Jumble-game">🐍 Jumble-game</a></b></td>
+      <td>Interactive Python Word Jumble Game featuring random word shuffling &amp; score tracking.</td>
+      <td align="center"><code>Python 3</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Completed-34D399?style=flat-square" /></td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/adityarathod2008/Intern_proj">💼 Intern_proj</a></b></td>
+      <td>Web Development Internship projects and responsive frontend UI components.</td>
+      <td align="center"><code>HTML</code> <code>CSS</code> <code>JS</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Maintained-818CF8?style=flat-square" /></td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/adityarathod2008/PYTHON_PROJECT_SEM-2">🎓 PYTHON_PROJECT_SEM-2</a></b></td>
+      <td>Semester 2 core Python data structures and algorithmic project implementations.</td>
+      <td align="center"><code>Python 3</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Academic-F472B6?style=flat-square" /></td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/adityarathod2008/Devlop">🚀 Devlop</a></b></td>
+      <td>Modern web component prototypes and experimental frontend features.</td>
+      <td align="center"><code>JS</code> <code>CSS3</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Ongoing-FBBF24?style=flat-square" /></td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/adityarathod2008/new_project">⚡ new_project</a></b></td>
+      <td>Responsive web application layout and modern UI component collection.</td>
+      <td align="center"><code>HTML5</code> <code>CSS3</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Showcase-94A3B8?style=flat-square" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<br />
+
+<!-- SLEEK DIVIDER -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/adityarathod2008/adityarathod2008/main/assets/divider-sleek.svg" width="100%" alt="Divider" />
+</div>
+
+<br />
+
+<!-- CATEGORIZED TECH MATRIX -->
+<div align="center">
+  <h2>⚡ Tech Stack &amp; Skill Matrix</h2>
+  <p><i>Tools, frameworks, and languages I use daily:</i></p>
 
   <br />
 
-  <!-- DYNAMIC HOVERABLE SKILL ICONS -->
+  <!-- SKILL ICONS GRID -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,nodejs,express,py,tailwind,bootstrap,git,github,vscode,figma,vercel,postman&theme=dark&perline=8" alt="My Tech Stack" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,nodejs,express,py,tailwind,bootstrap,git,github,vscode,figma,vercel,postman&theme=dark&perline=8" alt="Tech Stack Icons" />
   </a>
 
   <br /><br />
 
-  <!-- CATEGORY BADGES GRID -->
+  <!-- CATEGORY BADGES -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Languages-HTML5%20|%20CSS3%20|%20JavaScript%20(ES6+)%20|%20Python-38BDF8?style=flat-square&logo=javascript&logoColor=white" />
-    <img src="https://img.shields.io/badge/Frontend-React.js%20|%20Next.js%20|%20TailwindCSS-818CF8?style=flat-square&logo=react&logoColor=white" />
+    <img src="https://img.shields.io/badge/Frontend-HTML5%20%7C%20CSS3%20%7C%20JavaScript%20%7C%20React%20%7C%20Next.js%20%7C%20Tailwind-0F172A?style=flat-square&logo=react&logoColor=38BDF8" />
     <br />
-    <img src="https://img.shields.io/badge/Backend-Node.js%20|%20Express.js-C084FC?style=flat-square&logo=nodedotjs&logoColor=white" />
-    <img src="https://img.shields.io/badge/Tools%20%26%20Workflow-Git%20|%20GitHub%20|%20VS%20Code%20|%20Postman%20|%20Vercel-F472B6?style=flat-square&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express.js%20%7C%20Python%20%7C%20REST%20APIs-0F172A?style=flat-square&logo=nodedotjs&logoColor=818CF8" />
+    <br />
+    <img src="https://img.shields.io/badge/Tools-Git%20%7C%20GitHub%20%7C%20VS%20Code%20%7C%20Vercel%20%7C%20Postman-0F172A?style=flat-square&logo=github&logoColor=F472B6" />
   </p>
 </div>
 
 <br />
 
-<!-- ANIMATED LASER DIVIDER -->
+<!-- SLEEK DIVIDER -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/adityarathod2008/adityarathod2008/main/assets/divider.svg" width="100%" alt="Laser Divider" />
+  <img src="https://raw.githubusercontent.com/adityarathod2008/adityarathod2008/main/assets/divider-sleek.svg" width="100%" alt="Divider" />
 </div>
 
 <br />
 
-<!-- LIVE GITHUB ANALYTICS CARDS -->
+<!-- LIVE GITHUB STATS & STREAK SECTION -->
 <div align="center">
-  <h2>
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="35" height="35" />
-    <b>Live GitHub Analytics</b>
-  </h2>
+  <h2>📊 GitHub Analytics</h2>
 
   <br />
 
   <table border="0">
     <tr>
       <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=adityarathod2008&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=818cf8&bg_color=0f172a" height="195" alt="GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=adityarathod2008&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=818cf8&bg_color=0f172a" height="190" alt="GitHub Stats" />
       </td>
       <td align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=adityarathod2008&theme=tokyonight&hide_border=true&background=0f172a&ring=38bdf8&fire=f472b6" height="195" alt="GitHub Streak" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=adityarathod2008&theme=tokyonight&hide_border=true&background=0f172a&ring=38bdf8&fire=f472b6" height="190" alt="GitHub Streak" />
       </td>
     </tr>
   </table>
@@ -109,35 +171,17 @@
   <table border="0">
     <tr>
       <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityarathod2008&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8&bg_color=0f172a" height="170" alt="Top Languages" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityarathod2008&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8&bg_color=0f172a" height="165" alt="Top Languages" />
       </td>
     </tr>
   </table>
-</div>
-
-<br />
-
-<!-- GITHUB TROPHIES -->
-<div align="center">
-  <h2>
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" width="35" height="35" />
-    <b>GitHub Achievements</b>
-  </h2>
-  <br />
-  <a href="https://github.com/adityarathod2008">
-    <img src="https://github-profile-trophy.vercel.app/?username=adityarathod2008&theme=onedark&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-  </a>
 </div>
 
 <br />
 
 <!-- ANIMATED CONTRIBUTION GRID SNAKE GAME -->
 <div align="center">
-  <h2>
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" width="35" height="35" />
-    <b>Contribution Grid Snake Game</b>
-  </h2>
-  <p><i>Watch the animated snake eat my commit graph in real-time! 🐍</i></p>
+  <h2>🐍 Contribution Activity Grid</h2>
   
   <br />
 
@@ -150,71 +194,34 @@
 
 <br />
 
-<!-- FEATURED PROJECTS SHOWCASE -->
-<div align="center">
-  <h2>
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="35" height="35" />
-    <b>Featured Projects Showcase</b>
-  </h2>
-</div>
-
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" valign="top" style="padding: 12px; background-color: #0d1117; border-radius: 10px; border: 1px solid #30363d;">
-      <h3 align="center">🎵 Spotify Music Web Player</h3>
-      <p align="center">A high-fidelity web music player clone packed with dynamic UI components, custom audio controls, and responsive styling.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Tech-HTML5%20%7C%20CSS3%20%7C%20JS-38BDF8?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%" valign="top" style="padding: 12px; background-color: #0d1117; border-radius: 10px; border: 1px solid #30363d;">
-      <h3 align="center">🎮 Interactive Web Projects &amp; Games</h3>
-      <p align="center">Creative web apps and browser games featuring custom physics, micro-animations, and dynamic visual state management.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Tech-Frontend%20UI%20%7C%20JS-F472B6?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<!-- DYNAMIC DEV QUOTE CARD -->
-<div align="center">
-  <img src="https://readme-daily-quotes.vercel.app/api?theme=tokyonight&authorColor=38bdf8&quoteColor=818cf8" alt="Daily Dev Quote" />
-</div>
-
-<br />
-
 <!-- CONNECT & SOCIALS FOOTER -->
 <div align="center">
-  <h2>
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="35" height="35" />
-    <b>Let's Connect!</b>
-  </h2>
+  <h2>🤝 Let's Connect</h2>
 
   <br />
 
   <p align="center">
     <a href="https://github.com/adityarathod2008" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      <img src="https://img.shields.io/badge/GitHub-0F172A?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
     </a>
+    &nbsp;
     <a href="mailto:adityarathod2008@gmail.com" target="_blank">
-      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      <img src="https://img.shields.io/badge/Email-0F172A?style=flat-square&logo=gmail&logoColor=38BDF8" alt="Email" />
     </a>
+    &nbsp;
     <a href="https://linkedin.com/in/adityarathod2008" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-0F172A?style=flat-square&logo=linkedin&logoColor=818CF8" alt="LinkedIn" />
     </a>
   </p>
 
   <br />
 
-  <!-- CUSTOM ANIMATED CYBER FOOTER -->
-  <img src="https://raw.githubusercontent.com/adityarathod2008/adityarathod2008/main/assets/cyber-footer.svg" width="100%" alt="Cyber Footer Banner" />
+  <!-- SLEEK FOOTER -->
+  <img src="https://raw.githubusercontent.com/adityarathod2008/adityarathod2008/main/assets/footer-sleek.svg" width="100%" alt="Footer Banner" />
 
   <br /><br />
 
   <a href="#top">
-    <img src="https://img.shields.io/badge/⬆️_BACK_TO_TOP-0F172A?style=for-the-badge&logoColor=white" alt="Back to Top" />
+    <img src="https://img.shields.io/badge/⬆️_BACK_TO_TOP-0F172A?style=flat-square&logoColor=white" alt="Back to Top" />
   </a>
 </div>

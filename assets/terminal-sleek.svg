@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0B0F19" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .t-title { font-family: 'Fira Code', monospace; font-size: 12px; fill: #64748B; }
+    .t-code { font-family: 'Fira Code', Consolas, monospace; font-size: 13.5px; fill: #CBD5E1; }
+    .kw { fill: #38BDF8; font-weight: 600; }
+    .prop { fill: #818CF8; }
+    .str { fill: #34D399; }
+    .comment { fill: #475569; font-style: italic; }
+    .cursor { fill: #38BDF8; }
+  </style>
+
+  <rect width="846" height="276" x="2" y="2" rx="12" fill="url(#card-bg)" stroke="#1E293B" stroke-width="1.5" />
+  
+  <!-- Header Bar -->
+  <path d="M 2,12 A 10,10 0 0 1 12,2 L 838,2 A 10,10 0 0 1 848,12 L 848,34 L 2,34 Z" fill="#1E293B" fill-opacity="0.5" />
+  <circle cx="20" cy="18" r="5" fill="#EF4444" opacity="0.8" />
+  <circle cx="36" cy="18" r="5" fill="#F59E0B" opacity="0.8" />
+  <circle cx="52" cy="18" r="5" fill="#10B981" opacity="0.8" />
+  <text x="425" y="22" text-anchor="middle" class="t-title">profile.config.ts</text>
+
+  <line x1="2" y1="34" x2="848" y2="34" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Code Content -->
+  <g transform="translate(30, 68)">
+    <text class="t-code">
+      <tspan class="comment">// Developer Configuration &amp; Overview</tspan>
+    </text>
+    <text y="28" class="t-code">
+      <tspan class="kw">export const</tspan> developer = <tspan class="kw">{</tspan>
+    </text>
+    <text y="52" class="t-code" x="20">
+      <tspan class="prop">name</tspan>: <tspan class="str">"Aditya Rathod"</tspan>,
+    </text>
+    <text y="76" class="t-code" x="20">
+      <tspan class="prop">role</tspan>: <tspan class="str">"Full-Stack Web Developer"</tspan>,
+    </text>
+    <text y="100" class="t-code" x="20">
+      <tspan class="prop">skills</tspan>: [<tspan class="str">"React"</tspan>, <tspan class="str">"Next.js"</tspan>, <tspan class="str">"Node.js"</tspan>, <tspan class="str">"Python"</tspan>, <tspan class="str">"TailwindCSS"</tspan>],
+    </text>
+    <text y="124" class="t-code" x="20">
+      <tspan class="prop">location</tspan>: <tspan class="str">"India"</tspan>,
+    </text>
+    <text y="148" class="t-code" x="20">
+      <tspan class="prop">motto</tspan>: <tspan class="str">"Crafting clean, responsive, and intuitive web experiences."</tspan>
+    </text>
+    <text y="172" class="t-code">
+      <tspan class="kw">};</tspan> <tspan class="cursor">█</tspan>
+    </text>
+  </g>
+</svg>

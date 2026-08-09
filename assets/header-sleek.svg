@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="slate-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#38BDF8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#818CF8">
+        <animate attributeName="stop-color" values="#818CF8;#C084FC;#818CF8" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes subtle-pulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.7; }
+    }
+    .main-title {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 800;
+      font-size: 40px;
+      fill: url(#title-grad);
+      letter-spacing: 3px;
+    }
+    .subtitle {
+      font-family: 'Fira Code', monospace;
+      font-size: 15px;
+      fill: #94A3B8;
+      letter-spacing: 1.5px;
+    }
+    .desc {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 13.5px;
+      fill: #64748B;
+    }
+    .badge-bg { fill: #064E3B; fill-opacity: 0.5; stroke: #10B981; stroke-width: 1; }
+    .badge-txt { font-family: 'Fira Code', monospace; font-size: 11.5px; fill: #34D399; font-weight: 600; }
+    .glow-circle { animation: subtle-pulse 6s ease-in-out infinite; }
+  </style>
+
+  <!-- Canvas -->
+  <rect width="846" height="216" x="2" y="2" rx="14" fill="url(#slate-bg)" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="200" cy="110" r="80" fill="#0284C7" fill-opacity="0.15" filter="url(#soft-glow)" class="glow-circle" />
+  <circle cx="650" cy="100" r="90" fill="#6366F1" fill-opacity="0.12" filter="url(#soft-glow)" class="glow-circle" style="animation-delay: 3s;" />
+
+  <!-- Status Pill -->
+  <g transform="translate(620, 26)">
+    <rect width="195" height="30" rx="15" class="badge-bg" />
+    <circle cx="20" cy="15" r="4.5" fill="#34D399">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="34" y="19.5" class="badge-txt">● OPEN TO OPPORTUNITIES</text>
+  </g>
+
+  <!-- Hero Content -->
+  <g transform="translate(45, 95)">
+    <text class="main-title">ADITYA RATHOD</text>
+    <text y="38" class="subtitle">Full-Stack Web Developer &amp; UI Specialist</text>
+    <text y="68" class="desc">Building elegant, high-performance web applications with modern design systems &amp; clean code.</text>
+  </g>
+</svg>
