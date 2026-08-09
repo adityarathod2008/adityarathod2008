@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="term-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#161B22" />
+    </linearGradient>
+
+    <linearGradient id="term-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30363D" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#30363D" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes line1 { 0%, 5% { opacity: 0; } 10%, 100% { opacity: 1; } }
+    @keyframes line2 { 0%, 20% { opacity: 0; } 25%, 100% { opacity: 1; } }
+    @keyframes line3 { 0%, 35% { opacity: 0; } 40%, 100% { opacity: 1; } }
+    @keyframes line4 { 0%, 50% { opacity: 0; } 55%, 100% { opacity: 1; } }
+    @keyframes line5 { 0%, 65% { opacity: 0; } 70%, 100% { opacity: 1; } }
+    @keyframes line6 { 0%, 80% { opacity: 0; } 85%, 100% { opacity: 1; } }
+    
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+    .code-text { font-family: 'Fira Code', Consolas, Monaco, monospace; font-size: 14px; fill: #E2E8F0; }
+    .prompt { fill: #38BDF8; font-weight: bold; }
+    .cmd { fill: #F472B6; }
+    .key { fill: #818CF8; }
+    .val-str { fill: #34D399; }
+    .val-arr { fill: #FBBF24; }
+    .comment { fill: #64748B; font-style: italic; }
+    .cursor { animation: blink 1s infinite; fill: #38BDF8; }
+
+    .l1 { animation: line1 8s infinite; }
+    .l2 { animation: line2 8s infinite; }
+    .l3 { animation: line3 8s infinite; }
+    .l4 { animation: line4 8s infinite; }
+    .l5 { animation: line5 8s infinite; }
+    .l6 { animation: line6 8s infinite; }
+  </style>
+
+  <!-- Container Box -->
+  <rect width="846" height="316" x="2" y="2" rx="12" fill="url(#term-bg)" stroke="url(#term-border)" stroke-width="1.5" />
+
+  <!-- Window Bar -->
+  <path d="M 2,14 A 12,12 0 0 1 14,2 L 836,2 A 12,12 0 0 1 848,14 L 848,36 L 2,36 Z" fill="#161B22" />
+  <line x1="2" y1="36" x2="848" y2="36" stroke="#30363D" stroke-width="1" />
+
+  <!-- Window Dots -->
+  <circle cx="20" cy="19" r="6" fill="#FF5F56" />
+  <circle cx="38" cy="19" r="6" fill="#FFBD2E" />
+  <circle cx="56" cy="19" r="6" fill="#27C93F" />
+
+  <text x="425" y="23" text-anchor="middle" font-family="'Fira Code', monospace" font-size="12" fill="#8B949E">
+    aditya@system-station:~ (zsh)
+  </text>
+
+  <!-- Terminal Content -->
+  <g transform="translate(24, 65)">
+    <!-- Line 1: Command -->
+    <g class="l1">
+      <text class="code-text">
+        <tspan class="prompt">aditya@github:~$</tspan> <tspan class="cmd">cat</tspan> developer_profile.json
+      </text>
+    </g>
+
+    <!-- Line 2: JSON open -->
+    <g class="l2" transform="translate(0, 30)">
+      <text class="code-text"><tspan fill="#F472B6">{</tspan></text>
+    </g>
+
+    <!-- Line 3: Name & Role -->
+    <g class="l3" transform="translate(20, 55)">
+      <text class="code-text">
+        <tspan class="key">"developer"</tspan>: <tspan class="val-str">"Aditya Rathod (@adityarathod2008)"</tspan>,
+      </text>
+      <text y="24" class="code-text">
+        <tspan class="key">"focus"</tspan>: <tspan class="val-str">"Full-Stack Web Apps, Creative CSS &amp; UI Animations"</tspan>,
+      </text>
+    </g>
+
+    <!-- Line 4: Tech Stack Array -->
+    <g class="l4" transform="translate(20, 103)">
+      <text class="code-text">
+        <tspan class="key">"core_skills"</tspan>: [<tspan class="val-arr">"HTML5"</tspan>, <tspan class="val-arr">"CSS3"</tspan>, <tspan class="val-arr">"JavaScript"</tspan>, <tspan class="val-arr">"React"</tspan>, <tspan class="val-arr">"Next.js"</tspan>, <tspan class="val-arr">"Node.js"</tspan>, <tspan class="val-arr">"Python"</tspan>],
+      </text>
+    </g>
+
+    <!-- Line 5: Projects & Motto -->
+    <g class="l5" transform="translate(20, 151)">
+      <text class="code-text">
+        <tspan class="key">"featured_work"</tspan>: <tspan class="val-str">"Spotify Clone, Web Games &amp; Interactive UI tools"</tspan>,
+      </text>
+      <text y="24" class="code-text">
+        <tspan class="key">"motto"</tspan>: <tspan class="val-str">"Building crazy good web applications with smooth animations."</tspan>
+      </text>
+    </g>
+
+    <!-- Line 6: JSON Close & Prompt -->
+    <g class="l6" transform="translate(0, 199)">
+      <text class="code-text"><tspan fill="#F472B6">}</tspan></text>
+      <text y="28" class="code-text">
+        <tspan class="prompt">aditya@github:~$</tspan> <tspan class="cmd">echo</tspan> <tspan class="val-str">"Welcome to my GitHub world! 🚀"</tspan><tspan class="cursor">█</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

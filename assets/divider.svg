@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 30" width="100%" height="100%">
+  <defs>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="1" />
+      <stop offset="70%" stop-color="#EC4899" stop-opacity="1" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="laser-glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes laser-move {
+      0% { transform: translateX(-400px); }
+      100% { transform: translateX(850px); }
+    }
+    .laser-beam {
+      animation: laser-move 3s linear infinite;
+    }
+  </style>
+
+  <!-- Background Base Track -->
+  <line x1="0" y1="15" x2="850" y2="15" stroke="#1E293B" stroke-width="2" />
+  
+  <!-- Center Glowing Dot -->
+  <circle cx="425" cy="15" r="4" fill="#38BDF8" filter="url(#laser-glow)" />
+
+  <!-- Animated Moving Laser -->
+  <g class="laser-beam">
+    <rect x="0" y="13" width="350" height="4" rx="2" fill="url(#line-grad)" filter="url(#laser-glow)" />
+  </g>
+</svg>

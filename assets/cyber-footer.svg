@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="footer-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+
+    <linearGradient id="wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#F472B6" />
+    </linearGradient>
+
+    <filter id="glow-light" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes wave-anim {
+      0% { transform: translateX(0px); }
+      50% { transform: translateX(-30px); }
+      100% { transform: translateX(0px); }
+    }
+    @keyframes pulse-heart {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.25); }
+    }
+    .wave-path { animation: wave-anim 6s ease-in-out infinite; }
+    .heart { animation: pulse-heart 1.5s ease-in-out infinite; transform-origin: center; }
+    .footer-text { font-family: 'Fira Code', monospace; font-size: 14px; fill: #94A3B8; }
+    .footer-bold { fill: #38BDF8; font-weight: bold; }
+  </style>
+
+  <!-- Background Box -->
+  <rect width="846" height="136" x="2" y="2" rx="14" fill="url(#footer-bg)" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Animated Wave Line -->
+  <path d="M 10,25 Q 212,5 425,25 T 840,25" fill="none" stroke="url(#wave-grad)" stroke-width="3" filter="url(#glow-light)" class="wave-path" />
+
+  <!-- Content -->
+  <g transform="translate(425, 75)" text-anchor="middle">
+    <text class="footer-text">
+      Crafted with <tspan class="heart" fill="#F472B6">❤️</tspan> by <tspan class="footer-bold">Aditya Rathod</tspan> • Inspired by Innovation
+    </text>
+    <text y="30" font-family="'Fira Code', monospace" font-size="12" fill="#64748B">
+      ⭐ Star my profile repository if you like this design! ⭐
+    </text>
+  </g>
+</svg>
