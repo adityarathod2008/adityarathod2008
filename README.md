@@ -222,6 +222,6 @@
   <br /><br />
 
   <a href="#top">
-    <img src="https://img.shields.io/badge/⬆️_BACK_TO_TOP-0F172A?style=flat-square&logoColor=white" alt="Back to Top" />
+    <img src="https://img.shields.io/badge/Back_To_Top-0F172A?style=flat-square&logoColor=white" alt="Back to Top" />
   </a>
 </div>
