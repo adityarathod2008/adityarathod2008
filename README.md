@@ -69,6 +69,12 @@
   </thead>
   <tbody>
     <tr>
+      <td><b><a href="https://github.com/adityarathod2008/MusicPlus">🎵 MusicPlus</a></b></td>
+      <td>Modern, full-featured music streaming platform with web and desktop app support.</td>
+      <td align="center"><code>JS</code> <code>Python</code> <code>HTML5</code></td>
+      <td align="center"><img src="https://img.shields.io/badge/Active-38BDF8?style=flat-square" /></td>
+    </tr>
+    <tr>
       <td><b><a href="https://github.com/adityarathod2008/AWMK-G">🎮 AWMK-G</a></b></td>
       <td>All-in-one entertainment &amp; gaming web platform for movies, series &amp; browser games.</td>
       <td align="center"><code>HTML5</code> <code>CSS3</code> <code>JS</code></td>
@@ -97,12 +103,6 @@
       <td>Modern web component prototypes and experimental frontend features.</td>
       <td align="center"><code>JS</code> <code>CSS3</code></td>
       <td align="center"><img src="https://img.shields.io/badge/Ongoing-FBBF24?style=flat-square" /></td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/adityarathod2008/new_project">⚡ new_project</a></b></td>
-      <td>Responsive web application layout and modern UI component collection.</td>
-      <td align="center"><code>HTML5</code> <code>CSS3</code></td>
-      <td align="center"><img src="https://img.shields.io/badge/Showcase-94A3B8?style=flat-square" /></td>
     </tr>
   </tbody>
 </table>
